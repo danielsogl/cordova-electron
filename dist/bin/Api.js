@@ -16,5 +16,26 @@ module.exports = (function () {
             cordovaJsSrc: path_1.join('cordova-js-src')
         };
     }
+    Api.createPlatform = function (dest, config, options, events) {
+    };
+    Api.updatePlatform = function (dest, options, events) {
+    };
+    Api.prototype.getPlatformInfo = function () {
+        return;
+    };
+    Api.prototype.prepare = function () {
+    };
+    Api.prototype.addPlugin = function () {
+    };
+    Api.prototype.removePlugin = function () {
+    };
+    Api.prototype.build = function () {
+    };
+    Api.prototype.run = function () {
+    };
+    Api.prototype.clean = function () {
+    };
+    Api.prototype.requirements = function () {
+    };
     return Api;
 }());

@@ -12,6 +12,18 @@ interface PlatformLocations {
   cordovaJsSrc: string;
 }
 
+interface PlatformVersion {
+  version: string
+}
+
+interface PlatformInfo {
+  locations: PlatformLocations;
+  root: string;
+  name: string;
+  version: PlatformVersion;
+  projectConfig: any;
+}
+
 export = class Api {
 
   platform: string = 'electron';
@@ -27,5 +39,45 @@ export = class Api {
     cordovaJs: join(this.root, 'bin/templates/project/assets/www/cordova.js'),
     cordovaJsSrc: join('cordova-js-src')
   };
+
+  static createPlatform(dest: string, config: any, options: any, events: any) {
+
+  }
+
+  static updatePlatform(dest: string, options: any, events: any) {
+
+  }
+
+  getPlatformInfo(): PlatformInfo {
+    return;
+  }
+
+  prepare(): void {
+
+  }
+
+  addPlugin() {
+
+  }
+
+  removePlugin() {
+
+  }
+
+  build() {
+
+  }
+
+  run() {
+
+  }
+
+  clean() {
+
+  }
+
+  requirements() {
+
+  }
 
 }
