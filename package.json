@@ -6,6 +6,11 @@
   "bin": {
     "create": "dist/bin/create.js"
   },
+  "files" :[
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "watch": "tsc && tsc -w",
