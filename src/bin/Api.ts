@@ -12,7 +12,7 @@ interface PlatformLocations {
   cordovaJsSrc: string;
 }
 
-export class Api {
+export = class Api {
 
   platform: string = 'electron';
   root: string = resolve(__dirname, '..');
