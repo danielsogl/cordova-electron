@@ -8,4 +8,3 @@ class Api {
     }
 }
 exports.Api = Api;
-//# sourceMappingURL=Api.js.map

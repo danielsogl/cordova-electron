@@ -9,4 +9,3 @@ if (argv.help || argv.remain.length === 0) {
     // TODO show usage info
     process.exit(1);
 }
-//# sourceMappingURL=create.js.map
