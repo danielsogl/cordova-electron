@@ -17,6 +17,11 @@ module.exports = (function () {
         };
     }
     Api.createPlatform = function (dest, config, options, events) {
+        var name = 'HelloCordova', id = 'io.cordova.hellocordova';
+        if (config) {
+            name = config.name();
+            id = config.packageName();
+        }
     };
     Api.updatePlatform = function (dest, options, events) {
     };

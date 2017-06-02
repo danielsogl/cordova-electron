@@ -28,7 +28,8 @@
   "homepage": "https://github.com/zyra/cordova-electron#readme",
   "dependencies": {
     "cordova-common": "^2.0.3",
-    "electron": "^1.6.10"
+    "electron": "^1.6.10",
+    "shelljs": "^0.7.7"
   },
   "devDependencies": {
     "@types/electron": "^1.4.38",

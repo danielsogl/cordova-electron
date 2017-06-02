@@ -41,6 +41,13 @@ export = class Api {
   };
 
   static createPlatform(dest: string, config: any, options: any, events: any) {
+    let name = 'HelloCordova',
+      id = 'io.cordova.hellocordova';
+
+    if (config) {
+      name = config.name();
+      id = config.packageName();
+    }
 
   }
 
