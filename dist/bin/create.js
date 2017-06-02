@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var path = require('path'), argv = require('nopt')({
+var argv = require('nopt')({
     help: Boolean,
     cli: Boolean,
     shared: Boolean,

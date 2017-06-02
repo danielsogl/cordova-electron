@@ -6,7 +6,8 @@
     "sourceMap": false,
     "outDir": "dist",
     "removeComments": true,
-    "newLine": "LF"
+    "newLine": "LF",
+    "rootDir": "src"
   },
   "exclude": [
     "node_modules",
