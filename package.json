@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Electron Platform for Cordova Apps",
   "main": "dist/bin/Api.js",
+  "bin": {
+    "create": "dist/bin/create.js"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc && tsc -w",
