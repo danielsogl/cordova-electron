@@ -1,0 +1,34 @@
+{
+  "name": "cordova-electron",
+  "version": "0.1.0",
+  "description": "Electron Platform for Cordova Apps",
+  "main": "bin/templates/cordova/Api.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc && tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyra/cordova-electron.git"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-platform",
+    "apache"
+  ],
+  "author": "Zyra Media <info@zyra.ca>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zyra/cordova-electron/issues"
+  },
+  "homepage": "https://github.com/zyra/cordova-electron#readme",
+  "dependencies": {
+    "cordova-common": "^2.0.3",
+    "electron": "^1.6.10"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.23",
+    "typescript": "^2.3.4"
+  }
+}
