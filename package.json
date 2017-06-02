@@ -6,7 +6,7 @@
   "bin": {
     "create": "dist/bin/create.js"
   },
-  "files" :[
+  "files": [
     "dist",
     "LICENSE",
     "README.md"
@@ -37,7 +37,6 @@
     "shelljs": "^0.7.7"
   },
   "devDependencies": {
-    "@types/electron": "^1.4.38",
     "@types/node": "^7.0.23",
     "typescript": "^2.3.4"
   }
